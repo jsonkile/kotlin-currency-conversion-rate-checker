@@ -5,8 +5,8 @@ plugins {
     id("maven-publish")
 }
 
-group = "com.jsonkile.libs"
-version = "1.0-SNAPSHOT"
+group = "com.jsonkile"
+version = "1.0.0"
 
 repositories {
     mavenCentral()
@@ -23,4 +23,16 @@ tasks.test {
 
 tasks.withType<KotlinCompile> {
     kotlinOptions.jvmTarget = "1.8"
+}
+
+publishing {
+    publications {
+        create<MavenPublication>("maven") {
+            groupId = "com.jsonkile"
+            artifactId = "kotlin-currency-conversion-rate-checker"
+            version = "1.0.0"
+
+            from(components["java"])
+        }
+    }
 }
