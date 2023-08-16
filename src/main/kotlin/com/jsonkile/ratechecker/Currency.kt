@@ -1,4 +1,4 @@
-package com.jsonkile
+package com.jsonkile.ratechecker
 
 sealed class Currency(private val code: String) {
     /**

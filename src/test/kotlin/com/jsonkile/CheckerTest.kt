@@ -1,5 +1,7 @@
 package com.jsonkile
 
+import com.jsonkile.ratechecker.Checker
+import com.jsonkile.ratechecker.Currency
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Test
 

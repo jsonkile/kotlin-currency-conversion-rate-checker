@@ -5,8 +5,8 @@ plugins {
     id("maven-publish")
 }
 
-group = "com.jsonkile"
-version = "1.0.1"
+group = "com.jsonkile.ratechecker"
+version = "1.0.2"
 
 repositories {
     mavenCentral()
@@ -28,9 +28,9 @@ tasks.withType<KotlinCompile> {
 publishing {
     publications {
         create<MavenPublication>("maven") {
-            groupId = "com.jsonkile"
+            groupId = "com.jsonkile.ratechecker"
             artifactId = "kotlin-currency-conversion-rate-checker"
-            version = "1.0.1"
+            version = "1.0.2"
 
             from(components["java"])
         }

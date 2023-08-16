@@ -1,4 +1,4 @@
-package com.jsonkile
+package com.jsonkile.ratechecker
 
 import org.jsoup.Connection
 import org.jsoup.Jsoup
