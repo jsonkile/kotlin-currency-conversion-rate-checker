@@ -1,3 +1,5 @@
+package com.jsonkile
+
 import org.jsoup.Connection
 import org.jsoup.Jsoup
 
@@ -18,9 +20,4 @@ class Checker(val fromCurrency: Currency, val toCurrency: Currency) {
         }
     }
 
-}
-
-fun main() {
-    val checker = Checker(Currency.EUR, Currency.Custom("USD"))
-    print("${checker.fromCurrency} to ${checker.toCurrency} => ${checker()}")
 }

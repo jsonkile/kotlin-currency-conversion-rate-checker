@@ -1,3 +1,5 @@
+package com.jsonkile
+
 sealed class Currency(private val code: String) {
     /**
      * euro
