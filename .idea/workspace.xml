@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c75e81d1-77cb-44d7-840a-39da85462119" name="Changes" comment="updated version number">
+    <list default="true" id="c75e81d1-77cb-44d7-840a-39da85462119" name="Changes" comment="updated group id and version">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/jsonkile/Checker.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/jsonkile/ratechecker/Checker.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/jsonkile/Currency.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/jsonkile/ratechecker/Currency.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/com/jsonkile/CheckerTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/com/jsonkile/CheckerTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/jsonkile/ratechecker/Checker.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/jsonkile/ratechecker/Checker.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692194846003</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="updated group id and version">
+      <created>1692195781115</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1692195781115</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -215,6 +219,7 @@
     <MESSAGE value="publishing setup" />
     <MESSAGE value="refactored files location and added unit testing" />
     <MESSAGE value="updated version number" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated version number" />
+    <MESSAGE value="updated group id and version" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated group id and version" />
   </component>
 </project>
