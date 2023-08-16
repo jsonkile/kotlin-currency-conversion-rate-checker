@@ -1,3 +1,3 @@
 
-rootProject.name = "kotlin-conversion-rate-checker"
+rootProject.name = "kotlin-currency-conversion-rate-checker"
 
