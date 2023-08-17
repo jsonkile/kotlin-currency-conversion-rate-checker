@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c75e81d1-77cb-44d7-840a-39da85462119" name="Changes" comment="updated group id and version">
+    <list default="true" id="c75e81d1-77cb-44d7-840a-39da85462119" name="Changes" comment="added user agent">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/jsonkile/ratechecker/Checker.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/jsonkile/ratechecker/Checker.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/jsonkile/ratechecker/Currency.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/jsonkile/ratechecker/Currency.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/com/jsonkile/CheckerTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/com/jsonkile/CheckerTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +62,7 @@
       <recent name="com.jsonkile" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CheckerTest">
+  <component name="RunManager" selected="Kotlin.CheckerKt (1)">
     <configuration name="CheckerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -130,6 +132,14 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="CheckerKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jsonkile.ratechecker.CheckerKt" />
+      <module name="kotlin-currency-conversion-rate-checker.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
     <configuration name="CheckerKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jsonkile.CheckerKt" />
       <module name="kotlin-conversion-rate-checker.main" />
@@ -148,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.CheckerKt (1)" />
         <item itemvalue="Gradle.CheckerTest" />
         <item itemvalue="Gradle.CheckerTest.checkerThrowsException" />
         <item itemvalue="Gradle.CheckerTest.checkerReturnsDouble" />
         <item itemvalue="Kotlin.CheckerKt (1)" />
-        <item itemvalue="Kotlin.CheckerKt" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692195781115</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added user agent">
+      <created>1692197305779</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1692197305779</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -220,6 +237,7 @@
     <MESSAGE value="refactored files location and added unit testing" />
     <MESSAGE value="updated version number" />
     <MESSAGE value="updated group id and version" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated group id and version" />
+    <MESSAGE value="added user agent" />
+    <option name="LAST_COMMIT_MESSAGE" value="added user agent" />
   </component>
 </project>

@@ -80,6 +80,6 @@ sealed class Currency(private val code: String) {
 
 
     override fun toString(): String {
-        return code
+        return code.toLowerCase()
     }
 }
