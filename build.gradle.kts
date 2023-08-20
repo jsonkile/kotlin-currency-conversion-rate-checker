@@ -6,7 +6,7 @@ plugins {
 }
 
 group = "com.jsonkile.ratechecker"
-version = "1.0.2"
+version = "1.0.4"
 
 repositories {
     mavenCentral()
@@ -30,7 +30,7 @@ publishing {
         create<MavenPublication>("maven") {
             groupId = "com.jsonkile.ratechecker"
             artifactId = "kotlin-currency-conversion-rate-checker"
-            version = "1.0.2"
+            version = "1.0.4"
 
             from(components["java"])
         }
