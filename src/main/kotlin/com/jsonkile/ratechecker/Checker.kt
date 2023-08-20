@@ -10,7 +10,7 @@ class Checker(val fromCurrency: Currency, val toCurrency: Currency) {
 
     private val jsoup: Connection =
         Jsoup.connect(endpoint)
-            .userAgent("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36")
+            .userAgent("Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Googlebot/2.1; +http://www.google.com/bot.html) Chrome/116.0.0.0 Safari/537.36")
             .timeout(10000)
 
     /**
@@ -29,4 +29,9 @@ class Checker(val fromCurrency: Currency, val toCurrency: Currency) {
         }
     }
 
+}
+
+fun main() {
+    val checker = Checker(toCurrency = Currency.NGN, fromCurrency = Currency.USD)
+    println("${checker.fromCurrency} to ${checker.toCurrency} => ${checker()}")
 }

@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c75e81d1-77cb-44d7-840a-39da85462119" name="Changes" comment="added user agent">
+    <list default="true" id="c75e81d1-77cb-44d7-840a-39da85462119" name="Changes" comment="updated user agent">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/jsonkile/ratechecker/Checker.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/jsonkile/ratechecker/Checker.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/jsonkile/ratechecker/Currency.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/jsonkile/ratechecker/Currency.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/com/jsonkile/CheckerTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/com/jsonkile/CheckerTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +60,7 @@
       <recent name="com.jsonkile" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.CheckerKt (1)">
+  <component name="RunManager" selected="Gradle.CheckerTest">
     <configuration name="CheckerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -158,8 +156,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.CheckerKt (1)" />
         <item itemvalue="Gradle.CheckerTest" />
+        <item itemvalue="Kotlin.CheckerKt (1)" />
         <item itemvalue="Gradle.CheckerTest.checkerThrowsException" />
         <item itemvalue="Gradle.CheckerTest.checkerReturnsDouble" />
         <item itemvalue="Kotlin.CheckerKt (1)" />
@@ -217,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692197305779</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="updated user agent">
+      <created>1692269757392</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1692269757392</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -238,6 +243,7 @@
     <MESSAGE value="updated version number" />
     <MESSAGE value="updated group id and version" />
     <MESSAGE value="added user agent" />
-    <option name="LAST_COMMIT_MESSAGE" value="added user agent" />
+    <MESSAGE value="updated user agent" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated user agent" />
   </component>
 </project>
